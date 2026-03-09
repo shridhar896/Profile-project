@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: pink;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero {
+    background: #222;
+    color: white;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category {
+    margin: 20px 0;
+}
+
+.project-card {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+}
+
+.project-card a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .skills {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .projects {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
